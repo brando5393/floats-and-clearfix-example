@@ -19,7 +19,7 @@ Here is the code for a clearfix:
 ```
 
 As we can see a clearfix is at first glance a simple refrence to a clas. However, what makes this so special is that it
-essentially creates another <div> directly under where it has been assigned hence the `::after` code.
+essentially creates another div directly under where it has been assigned hence the `::after` code.
 
 To further clarify lets use an example:
 Lets say we have a div with the class of wrapper to hold all of the main content of our webpage.
