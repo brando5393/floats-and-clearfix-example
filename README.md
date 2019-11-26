@@ -22,6 +22,7 @@ As we can see a clearfix is at first glance a simple refrence to a clas. However
 essentially creates another div directly under where it has been assigned hence the `::after` code.
 
 To further clarify lets use an example:
+
 Lets say we have a div with the class of wrapper to hold all of the main content of our webpage.
 Inside of that div we have some text and an image.
 Now we would like for that text to wrap arround our image or at the very least sit next to it, 
