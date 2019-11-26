@@ -49,8 +49,6 @@ footer {
     height: 200px;
     width: 200px;
     padding: 0px 6px 0px 6px;
-    content: "The page now has a clearfix in place. As we can see the image now fits nicely into the wrapper div and is no longer overflowing. This is because of the new element that was created by the clearfix directly at the bottom of or "after" the wrapper div";
-    color: green;
 }
 
 #notes-heading {
@@ -59,4 +57,9 @@ footer {
     font-weight: bold;
     color: black;
 
+}
+
+#note-text {
+    content: "The page now has a clearfix in place. As we can see the image now fits nicely into the wrapper div and is no longer overflowing. This is because of the new element that was created by the clearfix directly at the bottom of or "after" the wrapper div";
+    color: green;
 }
