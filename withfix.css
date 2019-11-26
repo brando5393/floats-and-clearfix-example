@@ -1,0 +1,62 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+nav,
+footer {
+    border: black solid 3px;
+}
+
+.clearfix::after {
+    display: block;
+    content: "Hi I'm a clearfix";
+    clear: both;
+    border: violet dotted 5px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.wrapper {
+    border: solid steelblue 3px;
+    border-radius: 12px;
+}
+
+.example-image {
+    float: left;
+    overflow: auto;
+    border-radius: 50%;
+}
+
+.notes {
+    border: black dotted 3px;
+    height: 200px;
+    width: 200px;
+    padding: 0px 6px 0px 6px;
+    content: "The page now has a clearfix in place. As we can see the image now fits nicely into the wrapper div and is no longer overflowing. This is because of the new element that was created by the clearfix directly at the bottom of or "after" the wrapper div";
+    color: green;
+}
+
+#notes-heading {
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+
+}

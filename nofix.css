@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+nav,
+footer {
+    border: black solid 3px;
+}
+
+.wrapper {
+    border: solid steelblue 3px;
+    border-radius: 12px;
+}
+
+.example-image {
+    float: left;
+    overflow: auto;
+    border-radius: 50%;
+}
+
+.notes {
+    border: black dotted 3px;
+    height: 200px;
+    width: 200px;
+    padding: 0px 6px 0px 6px;
+    content: "This page does not have a clearfix at this time and as we can see, The image overflows into the footer area. This occurs because floated objects are taken out of the normal flow of our HTML.";
+    color: red;
+}
+
+#notes-heading {
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+
+}
